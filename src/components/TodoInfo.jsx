@@ -2,7 +2,7 @@ const TodoInfo = (props) => {
   const {
     total,
     done,
-    onDeleteAllButtonClick,
+    onDeleteAllButtonsClick,
   } = props
 
   const hasTasks = total > 0
@@ -16,7 +16,7 @@ const TodoInfo = (props) => {
         <button
           className="todo__delete-all-button"
           type="button"
-          onClick={onDeleteAllButtonClick}
+          onClick={onDeleteAllButtonsClick}
         >
           Delete all
         </button>
